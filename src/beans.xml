@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+   <bean id="ProductDao" class="com.alex_mono.dao.impl.ProductDaoImpl"/>
+  <!--  <bean id="ProductDao" class="com.alex_monono.dao.impl.ProductDaoHibImpl"/> -->
+   <bean id="UserDao" class="com.alex_mono.dao.impl.UserDaoImpl"/>
+   <bean id="CategoryDao" class="com.alex_mono.dao.impl.CategoryDaoImpl"/>
+   <bean id="OrderDao" class="com.alex_mono.dao.impl.OrderDaoImpl"/>
+   
+   <bean id="ProductService" class="com.alex_mono.service.impl.ProductServiceImpl"/>
+   <bean id="UserService" class="com.alex_mono.service.impl.UserServiceImpl"/>
+   <bean id="CategoryService" class="com.alex_mono.service.impl.CategoryServiceImpl"/>
+   <bean id="OrderService" class="com.alex_mono.service.impl.OrderServiceImpl"/>
+</beans>
